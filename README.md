@@ -11,7 +11,7 @@
 2. 参数化的光照模型难以准确和充分估计全频率照明（SH解释高频能力弱，SG能表示高质量高光和镜面反射，但描述低频能力弱），直接估计全频率的HDR照明图效果差
 
 <div align=center>
-  <img src="(2022 AAAI)Rendering-Aware HDR Environment Map Prediction from a Single Image4.png" alt="Different light estimation networks">
+  <img src="images/(2022 AAAI)Rendering-Aware HDR Environment Map Prediction from a Single Image4.png" alt="Different light estimation networks">
 </div>
 
 解决方案：
@@ -22,11 +22,11 @@
 4. 采用一个可微渲染层，将渲染损失也作为一个损失项监督GAN的生成
 
 <div align=center>
-  <img src="(2022 AAAI) Rendering-Aware HDR Environment Map Prediction from a Single Image1.png" alt="The structure of SG Regression Module">
+  <img src="images/(2022 AAAI) Rendering-Aware HDR Environment Map Prediction from a Single Image1.png" alt="The structure of SG Regression Module">
   
-  <img src="(2022 AAAI) Rendering-Aware HDR Environment Map Prediction from a Single Image2.png" alt="The structure of SH Regression Module">
+  <img src="images/(2022 AAAI) Rendering-Aware HDR Environment Map Prediction from a Single Image2.png" alt="The structure of SH Regression Module">
   
-  <img src="(2022 AAAI) Rendering-Aware HDR Environment Map Prediction from a Single Image3.png" alt="The structure of the generative network">
+  <img src="images/(2022 AAAI) Rendering-Aware HDR Environment Map Prediction from a Single Image3.png" alt="The structure of the generative network">
 </div>
 
 **(2020 ECCV) Object-based Illumination Estimation with Rendering-aware Neural Networks**
@@ -50,7 +50,7 @@
 6. 只从场景中单个对象（物体）的着色信息估计HDR EM，不依赖场景中的内容量，不对表面反射进行假设，作为基于场景的估计方法的补充
 
 <div align=center>
-  <img src="(2020 ECCV) Object-based Illumination Estimation with Rendering-aware Neural Networks1.png" alt="Overview of system">
+  <img src="images/(2020 ECCV) Object-based Illumination Estimation with Rendering-aware Neural Networks1.png" alt="Overview of system">
 </div>
 
 结论：
@@ -61,7 +61,7 @@
 **(2022 EGSR)SkyGAN Towards Realistic Cloud Imagery for Image Based Lighting**
 
 <div align=center>
-  <img src="(2022 EGSR)SkyGAN Towards Realistic Cloud Imagery for Image Based Lighting2.png" alt="SkyGAN Overview">
+  <img src="images/(2022 EGSR)SkyGAN Towards Realistic Cloud Imagery for Image Based Lighting2.png" alt="SkyGAN Overview">
 </div>
 
 问题提出：
@@ -77,7 +77,7 @@
 2. 将晴空图像经过编码器编码到潜在空间，作为生成器的输入信号，生成器生成一对晴天和阴天图像（包含云雾等信息），晴天图像与拟合出来的晴空图像计算Loss，阴天图像放入鉴别器判断真假
 
 <div align=center>
-  <img src="(2022 EGSR)SkyGAN Towards Realistic Cloud Imagery for Image Based Lighting1.png" alt="SkyGAN architecture">
+  <img src="images/(2022 EGSR)SkyGAN Towards Realistic Cloud Imagery for Image Based Lighting1.png" alt="SkyGAN architecture">
 </div>
 
 **(2021 CVPR)HDR Environment Map Estimation for Real-Time Augmented Reality**
@@ -95,9 +95,9 @@
 4. 通过渲染图像的损失监督生成器成本太高，提出一种新的投影损失（ProjectionLoss）
 
 <div align=center>
-  <img src="(2021 CVPR)HDR Environment Map Estimation for Real-Time Augmented Reality1.png" alt="Overview of EnvMapNet">
+  <img src="images/(2021 CVPR)HDR Environment Map Estimation for Real-Time Augmented Reality1.png" alt="Overview of EnvMapNet">
   
-  <img src="(2021 CVPR)HDR Environment Map Estimation for Real-Time Augmented Reality2.png" alt="Overview of Network">
+  <img src="images/(2021 CVPR)HDR Environment Map Estimation for Real-Time Augmented Reality2.png" alt="Overview of Network">
 </div>
 
 **(2022 VR)An improved augmented-reality method of inserting virtual objects into the scene with transparent objects**
@@ -117,7 +117,7 @@
 3. 对几何模型设计了两步优化方法来优化场景中物体的照明和材质。第一步，使用反向路径追踪和半球照明模型联合优化不透明物体的照明和材质；第二步，将透明物体添加到场景中，基于第一步中照明和材质的估计结果，一起优化场景中的所有材质和照明
 
 <div align=center>
-  <img src="(2022 VR)An improved augmented-reality method of inserting virtual objects into the scene with transparent objects1.png" alt="Overall framework">
+  <img src="images/(2022 VR)An improved augmented-reality method of inserting virtual objects into the scene with transparent objects1.png" alt="Overall framework">
 </div>
 
 **(2022 ECCV)StyleLight HDR Panorama Generation for Lighting Estimation and Editing**
@@ -136,7 +136,7 @@
 4. 提出一种焦点遮蔽GAN反演方法，从LDR的合成分支找出潜在编码，然后通过HDR的合成分支生成对应的HDR EM，可以通过潜在编码编辑光照
 
 <div align=center>
-  <img src="(2022 ECCV)StyleLight HDR Panorama Generation for Lighting Estimation and Editing1.png" alt="Overview of StyleLight">
+  <img src="images/(2022 ECCV)StyleLight HDR Panorama Generation for Lighting Estimation and Editing1.png" alt="Overview of StyleLight">
 </div>
 
 
